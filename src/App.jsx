@@ -1,6 +1,8 @@
 import ra from "./assets/ra.jpeg";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Card from "./components/card";
+import Sidebar from "./components/sidebar";
 import "./App.css";
 
 function App() {
@@ -9,11 +11,9 @@ function App() {
       <Header />
 
       <main className="container">
-        <div className="profile">
-          <img src={ra} alt="Foto Profil" />
-          <h2>Khumaera</h2>
-          <p>Frontend Developer</p>
-        </div>
+        <Sidebar />
+        <Card />
+        
       </main>
 
       <Footer />
