@@ -3,6 +3,7 @@ import Footer from "./components/footer";
 import Card from "./components/card";
 import Sidebar from "./components/sidebar";
 import ProductCard from "./components/productCard";
+import Counter from "./components/counter";
 
 import flower from "./assets/Flowers Bouquet Building Set.jpg";
 import keychain from "./assets/keychain illit.jpg";
@@ -20,6 +21,8 @@ function App() {
 
       <main className="container">
         <Sidebar />
+
+         <Counter />
 
         <div className="content">
           <Card />
