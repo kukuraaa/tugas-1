@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-            <p>© 2026 Khumaera</p>
+            <p>© 2026 Homieraa Shop</p>
         </footer>
     );
 }

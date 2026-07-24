@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
 import Sidebar from "./components/Sidebar";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "./components/productCard";
 import Counter from "./components/Counter";
 import Form from "./components/Form";
 

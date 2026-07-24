@@ -8,7 +8,7 @@ function Card() {
       <h2>Siti Khumaera M.S</h2>
       <p>Frontend Developer</p>
       <p className="desc">
-      Jelajahi berbagai koleksi LEGO mulai dari bunga, karakter, hingga karya seni yang cocok untuk koleksi maupun hadiah.
+      𝜗ৎ Jelajahi berbagai koleksi LEGO mulai dari bunga, karakter, hingga karya seni yang cocok untuk koleksi maupun hadiah.
       </p>
     </div>
   );
