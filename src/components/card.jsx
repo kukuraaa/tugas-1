@@ -1,9 +1,9 @@
-import ra from "../assets/ra.jpeg";
+import tay from "../assets/Lego.jpg";
 
 function Card() {
   return (
     <div className="card">
-      <img src={ra} alt="Foto Profil" />
+      <img src={tay} alt="Foto Profil" />
 
       <h2>Siti Khumaera M.S</h2>
       <p>Frontend Developer</p>
