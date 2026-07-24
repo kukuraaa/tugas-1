@@ -7,11 +7,11 @@ import Counter from "./components/Counter";
 import Form from "./components/Form";
 
 import flower from "./assets/Flowers Bouquet Building Set.jpg";
-import pixar from "./assets/LEGO Disney Pixar.jpg";
+import japan from "./assets/japan LEGO.png";
 import lego from "./assets/Olivia Rodrigo's LEGO sets.jpg";
 import vant from "./assets/LEGO Van Gogh.jpg";
-import red from "./assets/LEGO Red London Telephone.jpg";
-import hary from "./assets/LEGO Harry Potter Dobby.jpg";
+import way from "./assets/MilkyWay LEGO.png";
+import baba from "./assets/barbie.png";
 
 import "./App.css";
 
@@ -33,34 +33,34 @@ function App() {
               gambar={flower}
             />
 
-            <ProductCard
-              nama="LEGO Disney Pixar"
-              harga="Rp750.000"
-              gambar={pixar}
+             <ProductCard
+              nama="Princess Castle & Royal Pets"
+              harga="Rp599.000"
+              gambar={baba}
             />
 
-            <ProductCard
-              nama="LEGO Olivia Rodrigo"
+               <ProductCard
+              nama="Olivia Rodrigo's Dual Guitar"
               harga="Rp850.000"
               gambar={lego}
             />
 
             <ProductCard
-              nama="LEGO Art Vant Gogh"
+              nama="Japanese Cherry Blossom"
+              harga="Rp750.000"
+              gambar={japan}
+            />
+
+            <ProductCard
+              nama="The Starry Night"
               harga="Rp1.200.000"
               gambar={vant}
             />
 
             <ProductCard
-              nama="LEGO Red London Telephone"
+              nama="The Milky Way Galaxy"
               harga="Rp420.000"
-              gambar={red}
-            />
-
-            <ProductCard
-              nama="LEGO Harry Potter Dobby"
-              harga="Rp599.000"
-              gambar={hary}
+              gambar={way}
             />
             <Counter />
             <Form />

@@ -58,8 +58,8 @@
   object-fit: cover;
 }
 
-.footer {
-  background: #0d6b73;
+footer p {
+  background: #373c3d;
   color: white;
   text-align: center;
   padding: 20px;
