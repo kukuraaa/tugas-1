@@ -7,11 +7,11 @@ import Counter from "./components/Counter";
 import Form from "./components/Form";
 
 import flower from "./assets/Flowers Bouquet Building Set.jpg";
-import keychain from "./assets/keychain illit.jpg";
+import pixar from "./assets/LEGO Disney Pixar.jpg";
 import lego from "./assets/Olivia Rodrigo's LEGO sets.jpg";
-import shoes from "./assets/puma shoes.jpg";
-import mug from "./assets/kyto mug japan.jpg";
-import utan from "./assets/ikea bunny.jpg";
+import vant from "./assets/LEGO Van Gogh.jpg";
+import red from "./assets/LEGO Red London Telephone.jpg";
+import hary from "./assets/LEGO Harry Potter Dobby.jpg";
 
 import "./App.css";
 
@@ -34,9 +34,9 @@ function App() {
             />
 
             <ProductCard
-              nama="Keychain ILLIT"
-              harga="Rp75.000"
-              gambar={keychain}
+              nama="LEGO Disney Pixar"
+              harga="Rp750.000"
+              gambar={pixar}
             />
 
             <ProductCard
@@ -46,21 +46,21 @@ function App() {
             />
 
             <ProductCard
-              nama="Puma Shoes"
+              nama="LEGO Art Vant Gogh"
               harga="Rp1.200.000"
-              gambar={shoes}
+              gambar={vant}
             />
 
             <ProductCard
-              nama="Kyoto Mug Japan"
-              harga="Rp120.000"
-              gambar={mug}
+              nama="LEGO Red London Telephone"
+              harga="Rp420.000"
+              gambar={red}
             />
 
             <ProductCard
-              nama="IKEA Bunny"
-              harga="Rp199.000"
-              gambar={utan}
+              nama="LEGO Harry Potter Dobby"
+              harga="Rp599.000"
+              gambar={hary}
             />
             <Counter />
             <Form />
