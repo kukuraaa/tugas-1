@@ -1,9 +1,10 @@
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Card from "./components/card";
-import Sidebar from "./components/sidebar";
-import ProductCard from "./components/productCard";
-import Counter from "./components/counter";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Card from "./components/Card";
+import Sidebar from "./components/Sidebar";
+import ProductCard from "./components/ProductCard";
+import Counter from "./components/Counter";
+import Form from "./components/Form";
 
 import flower from "./assets/Flowers Bouquet Building Set.jpg";
 import keychain from "./assets/keychain illit.jpg";
@@ -21,8 +22,6 @@ function App() {
 
       <main className="container">
         <Sidebar />
-
-         <Counter />
 
         <div className="content">
           <Card />
@@ -63,6 +62,8 @@ function App() {
               harga="Rp199.000"
               gambar={utan}
             />
+            <Counter />
+            <Form />
           </div>
         </div>
       </main>
